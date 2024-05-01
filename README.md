@@ -1,5 +1,11 @@
 # One's personal site
 
+Created via
+
+```sh
+npx create-remix@latest --template remix-run/remix/templates/cloudflare
+```
+
 📖 See the [Remix docs](https://remix.run/docs) and the [Remix Vite docs](https://remix.run/docs/en/main/future/vite) for details on supported features.
 
 ## Typegen
@@ -28,6 +34,8 @@ npm run start
 ```
 
 ## Deployment
+
+[deploy a remix site](https://developers.cloudflare.com/pages/framework-guides/deploy-a-remix-site/)
 
 > [!WARNING]  
 > Cloudflare does _not_ use `wrangler.toml` to configure deployment bindings.
